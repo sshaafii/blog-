@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+    .site-header {
+        padding: 40px 0 60px;
+    }
+
+    .site-title {
+        letter-spacing: 0.2em;
+    }
+
+    .logo-float.bitcoin {
+        width: 160px;
+        height: 38px;
+    }
+
+    .logo-float.ethereum {
+        width: 50px;
+        height: 82px;
+    }
+
+    .logo-float.linux {
+        width: 80px;
+        height: 96px;
+    }
+
+    .logo-float.kubernetes {
+        width: 70px;
+        height: 70px;
+    }
+
+    .logo-float.kubernetes-alt {
+        width: 90px;
+        height: 30px;
+    }
+
+    .social-links {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        padding: 30px 0 50px;
+    }
+
+    .site-title {
+        font-size: clamp(2rem, 12vw, 3rem);
+        letter-spacing: 0.15em;
+    }
+
+    .container {
+        padding: 30px 16px;
+    }
+
+    .blog-item {
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+    }
+
+    .logo-float {
+        opacity: 0.12;
+    }
+
+    .logo-float.bitcoin {
+        width: 120px;
+        height: 28px;
+    }
+
+    .logo-float.ethereum {
+        width: 35px;
+        height: 57px;
+    }
+
+    .logo-float.kubernetes {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-float.linux,
+    .logo-float.kubernetes-alt {
+        display: none;
+    }
+
+    .social-links {
+        gap: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .site-title {
+        letter-spacing: 0.1em;
+    }
+
+    .container {
+        padding: 20px 12px;
+    }
+
+    .logo-float.bitcoin {
+        width: 100px;
+        height: 24px;
+    }
+
+    .logo-float.ethereum {
+        width: 30px;
+        height: 49px;
+    }
+
+    .logo-float.kubernetes {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .logo-float {
+        animation: none !important;
+        opacity: 0.1;
+    }
+
+    .logo-float.bitcoin {
+        transform: translate(10vw, 20vh);
+    }
+
+    .logo-float.ethereum {
+        transform: translate(75vw, 25vh);
+    }
+
+    .logo-float.linux {
+        transform: translate(20vw, 60vh);
+    }
+
+    .logo-float.kubernetes {
+        transform: translate(50vw, 40vh);
+    }
+
+    .logo-float.kubernetes-alt {
+        transform: translate(60vw, 70vh);
+    }
+}

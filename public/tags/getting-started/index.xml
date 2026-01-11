@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting-Started on SHAAFI</title>
+    <link>http://localhost:1313/tags/getting-started/</link>
+    <description>Recent content in Getting-Started on SHAAFI</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2026 10:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Blog Post Title</title>
+      <link>http://localhost:1313/blog/sample-blog-post/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/sample-blog-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is a sample blog post that demonstrates the structure and various markdown features you can use when writing blog posts for your Hugo site. Feel free to use this as a template or reference when creating your own content.&lt;/p&gt;&#xA;&lt;h2 id=&#34;text-formatting&#34;&gt;Text Formatting&lt;/h2&gt;&#xA;&lt;p&gt;You can use &lt;strong&gt;bold text&lt;/strong&gt; for emphasis, &lt;em&gt;italic text&lt;/em&gt; for subtle emphasis, and &lt;em&gt;&lt;strong&gt;bold italic&lt;/strong&gt;&lt;/em&gt; for strong emphasis. You can also use &lt;code&gt;inline code&lt;/code&gt; for technical terms or code snippets.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on SHAAFI</title>
+    <link>http://localhost:1313/tags/devops/</link>
+    <description>Recent content in Devops on SHAAFI</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jan 2026 14:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Essential DevOps Tools for 2026</title>
+      <link>http://localhost:1313/blog/devops-tools/</link>
+      <pubDate>Sat, 10 Jan 2026 14:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/devops-tools/</guid>
+      <description>&lt;h2 id=&#34;version-control&#34;&gt;Version Control&lt;/h2&gt;&#xA;&lt;p&gt;Git remains the foundation of modern DevOps practices. GitHub, GitLab, and Bitbucket provide collaborative platforms built on Git.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cicd-pipelines&#34;&gt;CI/CD Pipelines&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt;: Integrated CI/CD with GitHub repositories&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Jenkins&lt;/strong&gt;: Flexible, open-source automation server&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitLab CI&lt;/strong&gt;: Built-in CI/CD for GitLab projects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;container-orchestration&#34;&gt;Container Orchestration&lt;/h2&gt;&#xA;&lt;p&gt;Kubernetes has become the industry standard for container orchestration, with managed services like EKS, GKE, and AKS simplifying deployment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;infrastructure-as-code&#34;&gt;Infrastructure as Code&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Terraform&lt;/strong&gt;: Multi-cloud infrastructure provisioning&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ansible&lt;/strong&gt;: Configuration management and automation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CloudFormation&lt;/strong&gt;: AWS-native infrastructure as code&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;monitoring-and-observability&#34;&gt;Monitoring and Observability&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prometheus&lt;/strong&gt;: Metrics collection and alerting&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Grafana&lt;/strong&gt;: Visualization and dashboards&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ELK Stack&lt;/strong&gt;: Log aggregation and analysis&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;&#xA;&lt;p&gt;Mastering these tools provides a solid foundation for any DevOps engineer in 2026.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Journey from QA to DevOps</title>
+      <link>http://localhost:1313/blog/qa-to-devops/</link>
+      <pubDate>Mon, 05 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/qa-to-devops/</guid>
+      <description>&lt;h2 id=&#34;starting-in-qa&#34;&gt;Starting in QA&lt;/h2&gt;&#xA;&lt;p&gt;My career began in Quality Assurance, where I developed strong testing skills and learned the importance of reliability and automation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-transition&#34;&gt;The Transition&lt;/h2&gt;&#xA;&lt;p&gt;The transition to DevOps was a natural evolution, combining my testing background with infrastructure and automation skills.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-skills-acquired&#34;&gt;Key Skills Acquired&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Linux Administration&lt;/strong&gt;: Understanding system fundamentals&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scripting&lt;/strong&gt;: Bash, Python for automation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CI/CD&lt;/strong&gt;: Building automated testing and deployment pipelines&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Containers&lt;/strong&gt;: Docker and Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Setting up observability tools&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;challenges-faced&#34;&gt;Challenges Faced&lt;/h2&gt;&#xA;&lt;p&gt;Learning infrastructure concepts while maintaining QA expertise required dedication and continuous learning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

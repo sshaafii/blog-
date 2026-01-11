@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="homepage">
+    <section class="blog-list">
+        {{ range where .Site.RegularPages "Section" "blog" }}
+        <article class="blog-item">
+            <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-date">
+                {{ .Date.Format "January 2, 2006" }}
+            </time>
+            <h2 class="post-title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+            {{ if .Params.excerpt }}
+            <p class="post-excerpt">{{ .Params.excerpt }}</p>
+            {{ else }}
+            <p class="post-excerpt">{{ .Summary }}</p>
+            {{ end }}
+        </article>
+        {{ end }}
+    </section>
+</div>
+{{ end }}

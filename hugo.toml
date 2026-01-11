@@ -1,0 +1,47 @@
+baseURL = 'https://shaa.fi/'
+languageCode = 'en-us'
+title = 'SHAAFI'
+enableRobotsTXT = true
+enableGitInfo = false
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Personal website and technical blog - QA to DevOps/SRE journey"
+  author = "Shaafi"
+  github = "https://github.com/username"
+  linkedin = "https://linkedin.com/in/profile"
+
+[params.seo]
+  images = ['/images/og-image.png']
+  twitter_card = "summary_large_image"
+  twitter_site = ""
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5

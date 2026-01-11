@@ -1,0 +1,90 @@
+.floating-logos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.logo-float {
+    position: absolute;
+    opacity: 0.18;
+}
+
+.logo-float svg {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-float.bitcoin {
+    width: 220px;
+    height: 52px;
+    animation: floatBtc 28s infinite ease-in-out;
+}
+
+.logo-float.ethereum {
+    width: 70px;
+    height: 115px;
+    animation: floatEth 26s infinite ease-in-out;
+}
+
+.logo-float.linux {
+    width: 100px;
+    height: 120px;
+    animation: floatLinux 30s infinite ease-in-out;
+}
+
+.logo-float.kubernetes {
+    width: 100px;
+    height: 100px;
+    animation: floatK8s 32s infinite ease-in-out;
+}
+
+.logo-float.kubernetes-alt {
+    width: 100px;
+    height: 100px;
+    animation: floatKubernetesAlt 24s infinite ease-in-out;
+}
+
+@keyframes floatBtc {
+    0% { transform: translate(8vw, 18vh) rotate(-3deg); }
+    25% { transform: translate(60vw, 55vh) rotate(3deg); }
+    50% { transform: translate(15vw, 75vh) rotate(-2deg); }
+    75% { transform: translate(65vw, 20vh) rotate(5deg); }
+    100% { transform: translate(8vw, 18vh) rotate(-3deg); }
+}
+
+@keyframes floatEth {
+    0% { transform: translate(42vw, 6vh) rotate(0deg); }
+    25% { transform: translate(5vw, 50vh) rotate(8deg); }
+    50% { transform: translate(65vw, 72vh) rotate(-5deg); }
+    75% { transform: translate(80vw, 18vh) rotate(3deg); }
+    100% { transform: translate(42vw, 6vh) rotate(0deg); }
+}
+
+@keyframes floatLinux {
+    0% { transform: translate(78vw, 42vh) rotate(0deg); }
+    25% { transform: translate(12vw, 10vh) rotate(10deg); }
+    50% { transform: translate(35vw, 78vh) rotate(-8deg); }
+    75% { transform: translate(62vw, 6vh) rotate(5deg); }
+    100% { transform: translate(78vw, 42vh) rotate(0deg); }
+}
+
+@keyframes floatK8s {
+    0% { transform: translate(15vw, 62vh) rotate(0deg); }
+    25% { transform: translate(55vw, 28vh) rotate(-10deg); }
+    50% { transform: translate(82vw, 52vh) rotate(5deg); }
+    75% { transform: translate(32vw, 82vh) rotate(-5deg); }
+    100% { transform: translate(15vw, 62vh) rotate(0deg); }
+}
+
+@keyframes floatKubernetesAlt {
+    0% { transform: translate(65vw, 70vh) rotate(0deg); }
+    25% { transform: translate(10vw, 32vh) rotate(-5deg); }
+    50% { transform: translate(50vw, 8vh) rotate(3deg); }
+    75% { transform: translate(20vw, 65vh) rotate(-2deg); }
+    100% { transform: translate(65vw, 70vh) rotate(0deg); }
+}

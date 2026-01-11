@@ -1,0 +1,26 @@
+<div class="floating-logos" aria-hidden="true">
+    <div class="logo-float bitcoin">
+        {{ $bitcoin := resources.Get "images/logos/bitcoin-btc-logo-full.svg" }}
+        {{ $bitcoin.Content | safeHTML }}
+    </div>
+
+    <div class="logo-float ethereum">
+        {{ $ethereum := resources.Get "images/logos/ethereum-eth-logo.svg" }}
+        {{ $ethereum.Content | safeHTML }}
+    </div>
+
+    <div class="logo-float linux">
+        {{ $linux := resources.Get "images/logos/tux-linux.svg" }}
+        {{ $linux.Content | safeHTML }}
+    </div>
+
+    <div class="logo-float kubernetes">
+        {{ $kubernetes := resources.Get "images/logos/kubernetes-logo.svg" }}
+        {{ $kubernetes.Content | safeHTML }}
+    </div>
+
+    <div class="logo-float kubernetes-alt">
+        {{ $kubernetesAlt := resources.Get "images/logos/kubernetes-logo-no-workmark.svg" }}
+        {{ $kubernetesAlt.Content | safeHTML }}
+    </div>
+</div>

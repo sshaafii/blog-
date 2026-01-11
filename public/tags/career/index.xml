@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career on SHAAFI</title>
+    <link>http://localhost:1313/tags/career/</link>
+    <description>Recent content in Career on SHAAFI</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2026 09:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Journey from QA to DevOps</title>
+      <link>http://localhost:1313/blog/qa-to-devops/</link>
+      <pubDate>Mon, 05 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/qa-to-devops/</guid>
+      <description>&lt;h2 id=&#34;starting-in-qa&#34;&gt;Starting in QA&lt;/h2&gt;&#xA;&lt;p&gt;My career began in Quality Assurance, where I developed strong testing skills and learned the importance of reliability and automation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-transition&#34;&gt;The Transition&lt;/h2&gt;&#xA;&lt;p&gt;The transition to DevOps was a natural evolution, combining my testing background with infrastructure and automation skills.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-skills-acquired&#34;&gt;Key Skills Acquired&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Linux Administration&lt;/strong&gt;: Understanding system fundamentals&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scripting&lt;/strong&gt;: Bash, Python for automation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CI/CD&lt;/strong&gt;: Building automated testing and deployment pipelines&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Containers&lt;/strong&gt;: Docker and Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Setting up observability tools&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;challenges-faced&#34;&gt;Challenges Faced&lt;/h2&gt;&#xA;&lt;p&gt;Learning infrastructure concepts while maintaining QA expertise required dedication and continuous learning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
