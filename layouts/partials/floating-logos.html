@@ -23,4 +23,14 @@
         {{ $kubernetesAlt := resources.Get "images/logos/kubernetes-logo-no-workmark.svg" }}
         {{ $kubernetesAlt.Content | safeHTML }}
     </div>
+
+    <div class="logo-float silk-road">
+        {{ $silkRoad := resources.Get "images/logos/silk-road-icon.svg" }}
+        {{ $silkRoad.Content | safeHTML }}
+    </div>
+
+    <div class="logo-float usdc">
+        {{ $usdc := resources.Get "images/logos/usd-coin-usdc-logo.svg" }}
+        {{ $usdc.Content | safeHTML }}
+    </div>
 </div>

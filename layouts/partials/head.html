@@ -9,9 +9,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
 
 {{ $main := resources.Get "css/main.css" }}
+{{ $navigation := resources.Get "css/navigation.css" }}
 {{ $floatingLogos := resources.Get "css/floating-logos.css" }}
 {{ $responsive := resources.Get "css/responsive.css" }}
-{{ $styles := slice $main $floatingLogos $responsive | resources.Concat "css/bundle.css" | resources.Minify }}
+{{ $styles := slice $main $navigation $floatingLogos $responsive | resources.Concat "css/bundle.css" | resources.Minify }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico">

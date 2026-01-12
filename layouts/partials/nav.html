@@ -1,0 +1,5 @@
+<nav class="site-nav">
+    <a href="/" class="nav-link {{ if .IsHome }}active{{ end }}">Home</a>
+    <span class="nav-separator">/</span>
+    <a href="/about/" class="nav-link {{ if eq .RelPermalink "/about/" }}active{{ end }}">About</a>
+</nav>
