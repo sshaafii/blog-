@@ -8,7 +8,7 @@ enableGitInfo = false
   pagerSize = 10
 
 [params]
-  description = "Shaafi's Personal website and technical blog"
+  description = "Shaafi's personal website and technical blog"
   author = "Shaafi"
   github = "https://github.com/username"
   linkedin = "https://linkedin.com/in/profile"
