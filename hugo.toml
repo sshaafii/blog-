@@ -10,8 +10,8 @@ enableGitInfo = false
 [params]
   description = "Shaafi's personal website and technical blog"
   author = "Shaafi"
-  github = "https://github.com/username"
-  linkedin = "https://linkedin.com/in/profile"
+  github = "https://github.com/sshaafii"
+  linkedin = "https://linkedin.com/in/shaafii"
 
 [params.seo]
   images = ['/images/og-image.png']
