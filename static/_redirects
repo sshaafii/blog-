@@ -1,0 +1,5 @@
+# Redirect www to non-www
+https://www.larpmax.com/* https://larpmax.com/:splat 301!
+
+# Redirect HTTP to HTTPS (Cloudflare handles this automatically, but can be explicit)
+http://larpmax.com/* https://larpmax.com/:splat 301!
